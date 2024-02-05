@@ -2618,16 +2618,22 @@ input, select, textarea {
 
 		/* Footer */
 
+			#footer .copyright {
+			    background-color: rgba(255, 255, 255, 0.5); /* Adjust the alpha value as needed for transparency */
+			    padding: 10px; /* Add padding to make it visually appealing */
+			}
+			
 			#footer .copyright li {
-				display: block;
-				line-height: 1.25em;
-				border: 0;
-				padding: 0;
-				margin: 1em 0 0 0;
+			    display: block;
+			    line-height: 1.25em;
+			    border: 0;
+			    padding: 0;
+			    margin: 1em 0 0 0;
+			}
+			
+			#footer .copyright li:first-child {
+			    margin-top: 0;
 			}
 
-				#footer .copyright li:first-child {
-					margin-top: 0;
-				}
 
 	}
